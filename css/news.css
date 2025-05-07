@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.news_container {
+  width:100%;
+  height:auto;
+  padding:64px 0 160px;
+}
+.news_container {
+  text-align:left;
+}
+.NS_trend_wrap {
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap:8px;
+}
+.NS_title {
+  font-size:40px;
+  font-weight: bold;
+  margin-bottom:40px;
+}
+.ns_trend {
+  display:none;
+}
+.ns_trend+label {
+  width:26px;
+  height:26px;
+  background:url("../Images/checkbox_disa.png") center/cover;
+  background-repeat:no-repeat;
+  display:inline-block;
+}
+.ns_trend:checked+label {
+  background:url("../Images/checkbox_checked2.png") center/cover;
+}
+.NS_contents_wrap {
+  margin-top:16px;
+  padding-top:24px;
+  width:100%;
+  border-top:1px solid #111518;
+
+  display:flex;
+  gap:24px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.NS_list {
+  border-radius: 24px;
+  border:solid 1px #e5e5e5;
+  width:32%;
+  overflow:hidden;
+}
+.NS_listImg {
+  width:100%;
+  aspect-ratio: 1 / 1;
+  /* 양상 비율..? 1:1 */
+  overflow:hidden;
+}
+.NS_listImg > img {
+  width:100%;
+  /* object-fit: cover; */
+}
+.NS_listCon {
+  width:100%;
+  padding:32px;
+}
+.NS_listCa {
+  margin-bottom:8px;
+  color:#333;
+}
+.NS_listTitle {
+  width:100%;
+  min-height:54px;
+  font-size:18px;
+  font-weight: normal;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;  /* 2줄 넘어가면 말줄임 */
+  -webkit-box-orient: vertical;
+}
+.NS_listDate {
+  padding-top:16px;
+  font-size:14px;
+  color:#666;
+}
+.NS_contents_wrap+#newsCard {
+  display:none;
+}
+
+.news_more_btn {
+    width: 100%;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.news_more_btn button {
+    border: 1px solid #e5e5e5;
+    font-size:16px;
+    font-weight: bold;
+    width: 200px;
+    height: 56px;
+    border-radius: 900px;
+    background-color: transparent;
+
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:6px;
+}
+.news_more_btn img {
+    width:20px;
+    transform: rotate(180deg);
+}

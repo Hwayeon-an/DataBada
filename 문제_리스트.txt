@@ -1,0 +1,20 @@
+
+1. 다른 버튼 클릭 시 안 사라짐 
+5. 알뜰폰 종류(ul li) 하나 선택 시 그 값을 p태그에 넣는 것 ->  innerText 이게 null
+4. img rotate안됨
+6. QNA탭
+
+
+
+
+★회원가입 2
+- phone_wrap 전체 감싼 wrap도 border
+- 펼쳐지는 ul -> transition주면 border문제
+
+
+
+★ sub1 :: Data맞춤 서비스
+- 한 줄, 두 줄 p태그 height 자동 정렬(min-height 지정 x)
+
+
+

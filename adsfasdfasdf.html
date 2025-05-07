@@ -1,0 +1,41 @@
+<script>
+
+
+
+
+let buttons1 = document.querySelectorAll(".right > button");
+
+buttons1.forEach(btn1=>{
+  btn1.addEventListener("click", ()=>{
+    const isAll = btn1.classList.contains("DP_all");
+
+    if(isAll){
+      const isSelect = btn1.classList.contains("choice");
+
+      if(isSelect){
+        buttons1.forEach(b => b.classList.remove("choice"));
+      }else{
+        buttons1.forEach(b => b.classList.add("choice"));
+      }
+    }else{
+      btn1.classList.toggle("choice");
+
+      const allSelect = [...buttons1]
+        .filter(b => !b.classList.contains("DP_all"))
+        .every(b => b.classList.contains("choice"));
+
+      if(allSelect){
+        document.querySelector(".DP01_all").classList.add("choice");
+      }else{
+        document.querySelector(".DP01_all").classList.remove("choice");
+      }
+    }
+  });
+});
+
+
+
+
+
+
+</script>

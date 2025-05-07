@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공지사항</title>
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- mine -->
+    <link rel="icon" href="../Images/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/style.css">  <!--연동  -->
+    <link rel="stylesheet" href="../css/customer.css">
+    <script src="../js/script.js" defer></script>
+    <script src="../js/notification.js" defer></script>
+</head>
+
+<body>
+    <!-- 팝업 menu -->
+    <div class="modalPop_menu_container">
+      <div class="w1200">
+          <!-- logo, close -->
+          <div class="logoAndClose_wrap">
+              <div class="logo_box">
+                  <a href="../index.html"><img src="../Images/shinhan/databada logo.PNG" alt="Logo"></a>
+              </div>
+              <div class="close_btn_box">
+                  <img src="../Images/closeBtn_black.png" alt="Close">
+              </div>
+          </div>
+          <!-- menu list 1 -->
+          <div class="menuList_POP_wrap">
+              <!--list-->
+              <div class="mList_POPBox">
+                  <h2><span>Data서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="dataProduct.html">Data상품</a></li>
+                      <li><a href="dataCustom.html">맞춤Data</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>솔루션서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="solutionProduct.html">솔루션상품</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>광고서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="targetMarketing.html">타겟마케팅</a></li>
+                      <li><a href="mobileServey.html">모바일서베이</a></li>
+                      <li><a href="solPay.html">SOL페이배너광고</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>API서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="apiProduct.html">API상품</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>커뮤니티</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="news.html">활용장</a></li>
+                  </ul>
+              </div>
+          </div>
+          <!-- menu list 1 -->
+          <div class="menuList_POP_wrap menuList_POP_wrap2">
+              <!--list-->
+              <div class="mList_POPBox">
+                  <h2><span>DataBada</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="dataBada.html">DataBada</a></li>
+                      <li><a href="dataUniverse.html">신한 DataUniverse</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>MY</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="login.html">MY계약</a></li>
+                      <li><a href="login.html">MY타겟마케팅</a></li>
+                      <li><a href="login.html">관심상품</a></li>
+                      <li><a href="login.html">MY문의</a></li>
+                      <li><a href="login.html">알림</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>고객센터</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="notification.html">공지사항</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="qna.html">고객문의</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  <button class="top_btn"><img src="../Images/top_arrow_gray.png" alt="Top"></button>
+  <!-- https://databada.shinhancard.com/main -->
+  <!-- 헤더 -->
+  <header class="header">
+      <div class="w1200">
+          <!-- 네비게이션 -->
+          <div class="nav">
+              <div class="nav_txt">
+                <button class="nav_btn"><a href="dataBada.html">DataBada</a></button>
+                      <div class="nav_login">
+                          <p><a href="../pages/login.html">로그인</a></p>
+                          <p><a href="../pages/join.html">회원가입</a></p>
+                          <p><a href="../pages/qna.html">고객센터</a></p>
+                      </div>
+              </div>
+          </div> 
+          <!-- menu -->
+          <div class="menu_wrap">
+              <div>
+                  <a href="../index.html">
+                      <img class="logo" src="../Images/shinhan/databada logo.PNG" alt="logo" title="logo">
+                  </a>
+              </div>
+              <div>
+                  <nav class="menu_nav">
+                      <ul>
+                          <li>Data서비스</li>
+                          <li>솔루션서비스</li>
+                          <li>광고서비스</li>
+                          <li>API서비스</li>
+                          <li>커뮤니티</li>
+                      </ul>
+                  </nav>
+              </div>
+              <div class="nav_icon_wrap">
+                <a href="login.html"><img class="myplay_icon" src="../Images/shinhan/mypage icon.PNG" title="mypage" alt="mypage"></a>
+                <img class="hamMenu" src="../Images/shinhan/menu icon.PNG" alt="more" title="more">
+              </div>
+          </div>
+      </div>
+  </header>
+  <div class="gnp_inner_wrap">
+      <div class="sub_gnb_inner">
+          <div class="w1200">
+              <div class="sub_listBox">
+                  <h2><span>Data서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="dataProduct.html">Data상품</a></li>
+                      <li><a href="dataCustom.html">맞춤Data</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>솔루션서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="solutionProduct.html">솔루션상품</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>광고서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="targetMarketing.html">타겟마케팅</a></li>
+                      <li><a href="mobileServey.html">모바일서베이</a></li>
+                      <li><a href="solPay.html">SOL페이배너광고</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>API서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="apiProduct.html">API상품</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>커뮤니티</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="news.html">활용장</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+    <!-- contents -->
+    <div class="choice_container">
+      <div class="w1200">
+          <h1 class="choice_title">공지사항</h1>
+
+            <!--검색어-->
+            <div class="NC_search_container">
+              <div class="NC_label_wrap">
+                <label for="NC_search" class="NC_search">
+                  <input type="text" id="NC_search" class="NC_search" placeholder="제목 입력">
+                  <div class="NC_searchReset">
+                      <img src="../Images/searchReset.png" alt="초기화">
+                  </div>
+                </label>
+                <button><img src="../Images/search.png" alt="search"></button>
+              </div>
+            </div>
+
+            <!-- list -->
+            <div class="NC_list_wrap">
+              <ul>
+                <li>
+                  <div class="no">1</div>
+                  <div class="title">데이터 마켓 플레이스 '데이터바다(DataBada)' 오픈 안내</div>
+                  <div class="date">2024.08.09</div>
+                </li>
+              </ul>
+            </div>
+          
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer_wrap footer_noMarginT">
+        <div class="w1200 flex">
+            <!-- left logo -->
+            <div class="footer_logo_wrap">
+                <img src="../Images/shinhan/databada logo.PNG">
+            </div>
+            <!-- right txt -->
+            <div class="footer_txt_wrap">
+                <p> 이용약관 <span>|</span> 개인정보처리방침 </p>
+                <p> 서울특별시 중구 을지로 100 (을지로2가, 파인에비뉴 A동) 신한카드 </p>
+                <p> 이메일: databada@shinhan.com </p>
+                <p> Copyright 2024 Shinhan Card DataBada. All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        var dbBigSwiper = new Swiper(".dbBigSwiper", {
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
+
+
+
+        // 카테고리 클릭 시 선택 유무 표시
+        // (1) 클릭 시
+        let buttons1 = document.querySelectorAll(".DP_right1 > button");
+        let buttons2 = document.querySelectorAll(".DP_right2 > button");
+        let buttons3 = document.querySelectorAll(".DP_right3 > button");
+        // 검색 버튼
+        buttons1.forEach(btn1 => {
+            btn1.addEventListener("click", () => {
+                const isAll = btn1.classList.contains("DP_all"); // 전체버튼
+
+                if (isAll) { // 클릭 버튼이 '전체'일 경우
+                    const isSelected = btn1.classList.contains("choice"); // 클릭 버튼이 choice갖고 있으면
+
+                    // 전체버튼 클릭 시 > 선택되어 것들은
+                    if (isSelected) {
+                        buttons1.forEach(b => b.classList.remove("choice")); // choice는 없애기
+                    } else {// 선택 안 되어 있었다면 → 전체 선택
+                        buttons1.forEach(b => b.classList.add("choice")); // choice 부여
+                    }
+                } else { // 전체 버튼이 아닌 개별 버튼일 때
+                    btn1.classList.toggle("choice");
+
+                    // 개별 버튼 중 하나라도 해제되면 전체 버튼도 해제
+                    const allSelected = [...buttons1]
+                        .filter(b => !b.classList.contains("DP_all")) // '전체' 버튼 제외
+                        .every(b => b.classList.contains("choice")); // 모두 choice 상태인지 확인
+
+                    if (allSelected) {
+                        document.querySelector(".DP01_all").classList.add("choice");
+                    } else {
+                        document.querySelector(".DP01_all").classList.remove("choice");
+                    }
+                }
+            });
+        });
+        buttons2.forEach(btn1 => {
+            btn1.addEventListener("click", () => {
+                const isAll = btn1.classList.contains("DP_all"); // 전체버튼
+
+                if (isAll) { // 클릭 버튼이 '전체'일 경우
+                    const isSelected = btn1.classList.contains("choice"); // 클릭 버튼이 choice갖고 있으면
+
+                    // 전체버튼 클릭 시 > 선택되어 것들은
+                    if (isSelected) {
+                        buttons2.forEach(b => b.classList.remove("choice")); // choice는 없애기
+                    } else {// 선택 안 되어 있었다면 → 전체 선택
+                        buttons2.forEach(b => b.classList.add("choice")); // choice 부여
+                    }
+                } else { // 전체 버튼이 아닌 개별 버튼일 때
+                    btn1.classList.toggle("choice");
+
+                    // 개별 버튼 중 하나라도 해제되면 전체 버튼도 해제
+                    const allSelected = [...buttons2]
+                        .filter(b => !b.classList.contains("DP_all")) // '전체' 버튼 제외
+                        .every(b => b.classList.contains("choice")); // 모두 choice 상태인지 확인
+
+                    if (allSelected) {
+                        document.querySelector(".DP02_all").classList.add("choice");
+                    } else {
+                        document.querySelector(".DP02_all").classList.remove("choice");
+                    }
+                }
+            });
+        });
+        buttons3.forEach(btn1 => {
+            btn1.addEventListener("click", () => {
+                const isAll = btn1.classList.contains("DP_all"); // 전체버튼
+
+                if (isAll) { // 클릭 버튼이 '전체'일 경우
+                    const isSelected = btn1.classList.contains("choice"); // 클릭 버튼이 choice갖고 있으면
+
+                    // 전체버튼 클릭 시 > 선택되어 것들은
+                    if (isSelected) {
+                        buttons3.forEach(b => b.classList.remove("choice")); // choice는 없애기
+                    } else {// 선택 안 되어 있었다면 → 전체 선택
+                        buttons3.forEach(b => b.classList.add("choice")); // choice 부여
+                    }
+                } else { // 전체 버튼이 아닌 개별 버튼일 때
+                    btn1.classList.toggle("choice");
+
+                    // 개별 버튼 중 하나라도 해제되면 전체 버튼도 해제
+                    const allSelected = [...buttons3]
+                        .filter(b => !b.classList.contains("DP_all")) // '전체' 버튼 제외
+                        .every(b => b.classList.contains("choice")); // 모두 choice 상태인지 확인
+
+                    if (allSelected) {
+                        document.querySelector(".DP03_all").classList.add("choice");
+                    } else {
+                        document.querySelector(".DP03_all").classList.remove("choice");
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

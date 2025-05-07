@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API상품</title>
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- mine -->
+    <link rel="icon" href="../Images/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/style.css">  <!--연동  -->
+    <link rel="stylesheet" href="../css/choice.css">
+    <script src="../js/script.js" defer></script>
+    <script src="../js/dataProduct.js" defer></script>
+</head>
+
+<body>
+  <!-- 팝업 menu -->
+  <div class="modalPop_menu_container">
+    <div class="w1200">
+        <!-- logo, close -->
+        <div class="logoAndClose_wrap">
+            <div class="logo_box">
+                <a href="../index.html"><img src="../Images/shinhan/databada logo.PNG" alt="Logo"></a>
+            </div>
+            <div class="close_btn_box">
+                <img src="../Images/closeBtn_black.png" alt="Close">
+            </div>
+        </div>
+        <!-- menu list 1 -->
+        <div class="menuList_POP_wrap">
+            <!--list-->
+            <div class="mList_POPBox">
+                <h2><span>Data서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="dataProduct.html">Data상품</a></li>
+                    <li><a href="dataCustom.html">맞춤Data</a></li>
+                </ul>
+            </div>
+            <div class="mList_POPBox">
+                <h2><span>솔루션서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="solutionProduct.html">솔루션상품</a></li>
+                </ul>
+            </div>
+            <div class="mList_POPBox">
+                <h2><span>광고서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="targetMarketing.html">타겟마케팅</a></li>
+                    <li><a href="mobileServey.html">모바일서베이</a></li>
+                    <li><a href="solPay.html">SOL페이배너광고</a></li>
+                </ul>
+            </div>
+            <div class="mList_POPBox">
+                <h2><span>API서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="apiProduct.html">API상품</a></li>
+                </ul>
+            </div>
+            <div class="mList_POPBox">
+                <h2><span>커뮤니티</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="news.html">활용장</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- menu list 1 -->
+        <div class="menuList_POP_wrap menuList_POP_wrap2">
+            <!--list-->
+            <div class="mList_POPBox">
+                <h2><span>DataBada</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="dataBada.html">DataBada</a></li>
+                    <li><a href="dataUniverse.html">신한 DataUniverse</a></li>
+                </ul>
+            </div>
+            <div class="mList_POPBox">
+                <h2><span>MY</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="login.html">MY계약</a></li>
+                    <li><a href="login.html">MY타겟마케팅</a></li>
+                    <li><a href="login.html">관심상품</a></li>
+                    <li><a href="login.html">MY문의</a></li>
+                    <li><a href="login.html">알림</a></li>
+                </ul>
+            </div>
+            <div class="mList_POPBox">
+                <h2><span>고객센터</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="notification.html">공지사항</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="qna.html">고객문의</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<button class="top_btn"><img src="../Images/top_arrow_gray.png" alt="Top"></button>
+<!-- https://databada.shinhancard.com/main -->
+<!-- 헤더 -->
+<header class="header">
+    <div class="w1200">
+        <!-- 네비게이션 -->
+        <div class="nav">
+            <div class="nav_txt">
+              <button class="nav_btn"><a href="dataBada.html">DataBada</a></button>
+                    <div class="nav_login">
+                        <p><a href="../pages/login.html">로그인</a></p>
+                        <p><a href="../pages/join.html">회원가입</a></p>
+                        <p><a href="../pages/qna.html">고객센터</a></p>
+                    </div>
+            </div>
+        </div> 
+        <!-- menu -->
+        <div class="menu_wrap">
+            <div>
+                <a href="../index.html">
+                    <img class="logo" src="../Images/shinhan/databada logo.PNG" alt="logo" title="logo">
+                </a>
+            </div>
+            <div>
+                <nav class="menu_nav">
+                    <ul>
+                        <li>Data서비스</li>
+                        <li>솔루션서비스</li>
+                        <li>광고서비스</li>
+                        <li>API서비스</li>
+                        <li>커뮤니티</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav_icon_wrap">
+              <a href="login.html"><img class="myplay_icon" src="../Images/shinhan/mypage icon.PNG" title="mypage" alt="mypage"></a>
+              <img class="hamMenu" src="../Images/shinhan/menu icon.PNG" alt="more" title="more">
+            </div>
+        </div>
+    </div>
+</header>
+<div class="gnp_inner_wrap">
+    <div class="sub_gnb_inner">
+        <div class="w1200">
+            <div class="sub_listBox">
+                <h2><span>Data서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="dataProduct.html">Data상품</a></li>
+                    <li><a href="dataCustom.html">맞춤Data</a></li>
+                </ul>
+            </div>
+            <div class="sub_listBox">
+                <h2><span>솔루션서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="solutionProduct.html">솔루션상품</a></li>
+                </ul>
+            </div>
+            <div class="sub_listBox">
+                <h2><span>광고서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="targetMarketing.html">타겟마케팅</a></li>
+                    <li><a href="mobileServey.html">모바일서베이</a></li>
+                    <li><a href="solPay.html">SOL페이배너광고</a></li>
+                </ul>
+            </div>
+            <div class="sub_listBox">
+                <h2><span>API서비스</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="apiProduct.html">API상품</a></li>
+                </ul>
+            </div>
+            <div class="sub_listBox">
+                <h2><span>커뮤니티</span></h2>
+                <ul class="sub_list_ul">
+                    <li><a href="news.html">활용장</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <!-- contents -->
+    <div class="choice_container">
+      <div class="w1200">
+          <h1 class="choice_title">API상품</h1>
+
+          <!-- 선택요소 -->
+          <div class="DP_choice_wrap">
+            <!--분석 목적-->
+            <div>
+              <div class="DP_left"> <!-- 10% -->
+                <p>분석 목적</p>
+              </div>
+              <div class="DP_right DP_right1">
+                <button type="button" class="DP01_all DP_all">전체</button>
+                <button type="button" class="DP01_ca1">시장분석</button>
+                <button type="button" class="DP01_ca2">상권분석</button>
+                <button type="button" class="DP01_ca3">고객분석</button>
+                <button type="button" class="DP01_ca4">관광분석</button>
+                <button type="button" class="DP01_ca5">지역경제</button>
+                <button type="button" class="DP01_ca6">정책분석</button>
+                <button type="button" class="DP01_ca7">모니터링</button>
+                <button type="button" class="DP01_ca8">대안신용</button>
+                <button type="button" class="DP01_ca9">심사전략</button>
+                <button type="button" class="DP01_ca10">신용모형</button>
+                <button type="button" class="DP01_ca11">마케팅</button>
+                <button type="button" class="DP01_ca12">연구</button>
+              </div>    
+            </div>
+            <!--데이터 기준-->
+            <div>
+              <div class="DP_left">
+                <p>데이터 기준</p>
+              </div>
+              <div class="DP_right DP_right2">
+                <button type="button" class="DP02_all DP_all">전체</button>
+                <button type="button" class="DP02_ca1">개인사업자</button>
+                <button type="button" class="DP02_ca2">카드데이터</button>
+                <button type="button" class="DP02_ca3">마이데이터</button>
+                <button type="button" class="DP02_ca4">가명결합</button>
+                <button type="button" class="DP02_ca5">공공데이터</button>
+                <button type="button" class="DP02_ca6">제휴데이터</button>
+                <button type="button" class="DP02_ca7">기타</button>
+              </div>
+            </div>
+            <!--고객사 기준-->
+            <div>
+              <div class="DP_left">
+                <p>고객사 기준</p>
+              </div>
+              <div class="DP_right DP_right3">
+                <button type="button" class="DP03_all DP_all">전체</button>
+                <button type="button" class="DP03_ca1">공공기관</button>
+                <button type="button" class="DP03_ca2">민간기관</button>
+                <button type="button" class="DP03_ca3">금융기관</button>
+                <button type="button" class="DP03_ca4">마케팅대행사</button>
+                <button type="button" class="DP03_ca5">기타</button>
+              </div>
+            </div>
+            <!--검색어-->
+            <div>
+              <div class="DP_left">
+                <p>검색어</p>
+              </div>
+              <div class="DP_right">
+                <label for="DP_search" class="DP_search">
+                  <input type="text" id="DP_search" class="DP_searchInput" placeholder="검색어 입력">
+                  <div class="DP_searchReset">
+                      <img src="../Images/searchReset.png" alt="초기화">
+                  </div>
+                </label>
+              </div>
+            </div>
+            <!--초기화&검색-->
+            <div class="DP_choice_under_btn">
+              <button class="DP_reset_btn">초기화</button>
+              <button class="DP_search_btn">검색</button>
+            </div>
+          </div>
+
+
+          <!-- API이용 방법 안내 -->
+          <div class="howUse_api">
+            <button type="button"><a href="howUseApi.html">API이용 방법 안내</a></button>
+          </div>
+
+          <hr class="choice_hr">
+
+          <div class="DP_choice_list">
+            <div class="DP_flex_list">
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>고객분석</span>
+                          <span class="yellow">마이데이터</span>
+                          <span>민간기관</span>
+                          <span>금융기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>마이데이터 기반 고객 금융·소비 분석 정보 (MyDaaS)</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>기업 대상으로 고객별 마이데이터 금융 및 혜택 정보를 제공하는 My Data as a Service</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img1.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#개인동의형</span>
+                          <span>#Mydata</span>
+                          <span>#고객분석</span>
+                          <span>#금융정보</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>상권분석</span>
+                          <span>모니터링</span>
+                          <span class="pink">카드데이터</span>
+                          <span>민간기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>사업자 업종 정보 조회</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>신한카드 가맹 사업자의 업종 및 주소 정보</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img2.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#업종</span>
+                          <span>#사업자정보</span>
+                          <span>#상권분석</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>상권분석</span>
+                          <span>모니터링</span>
+                          <span class="purple">마케팅</span>
+                          <span class="pink">카듣데이터</span>
+                          <span>민간기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>신규 및 해지 매장 정보 조회</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>일별 업종별 가맹점 신규/해지 매장 목록 정보</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img3.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#신규가맹점</span>
+                          <span>#해지가맹점</span>
+                          <span>#업종</span>
+                          <span>#상권분석</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>DATA/API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span class="green">심사전략</span>
+                          <span class="green">신용모형</span>
+                          <span class="green">개인사업자</span>
+                          <span>민간기관</span>
+                          <span>금융기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>MyCredit 신용평가모형</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>신한카드 데이터를 활용하여 우수한 리스크 변별력과 안정성을 확보한 개인사업자 특화 신용평가모형</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img4.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#개인사업자CB</span>
+                          <span>#개인사업자</span>
+                          <span>#신용평가</span>
+                          <span>#MyCredit</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>DATA/API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>상권분석</span>
+                          <span class="green">심사전략</span>
+                          <span class="green">개인사업자</span>
+                          <span>민간기관</span>
+                          <span>금융기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>온라인 사업자 MPS</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>온라인 사업자별 프로파일링 데이터를 제공</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img5.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                        <span>#개인사업자CB</span>
+                        <span>#온라인사업자</span>
+                        <span>#전자상거래</span>
+                        <span>#MyCredit</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                        <div>DATA/API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                        <span>시장분석</span>
+                        <span class="green">심사전략</span>
+                        <span class="green">개인사업자</span>
+                        <span class="purple">공공기관</span>
+                        <span>민간기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>배달 MPS</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>가맹점의 배달 플랫폼 매출 정보를 가공한 요약 항목을 제공</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img6.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                        <span>#개인사업자CB</span>
+                        <span>#가맹점</span>
+                        <span>#배달</span>
+                        <span>#MyCredit</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>DATA/API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                        <span>상권분석</span>
+                        <span class="green">심사전략</span>
+                        <span class="green">개인사업자</span>
+                        <span>민간기관</span>
+                        <span>금융기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>안정성평가지수</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>개인사업자의 휴폐업 가능성을 예측한 스코어와 등급</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img7.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                        <span>#개인사업자CB</span>
+                        <span>#가맹점</span>
+                        <span>#휴폐업</span>
+                        <span>#MyCredit</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>DATA/API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>시장분석</span>
+                          <span class="purple">마케팅</span>
+                          <span class="yellow">기타</span>
+                          <span>민간기관</span>
+                          <span>금융기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>공모주 실시간 경쟁률 조회</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>청약 기간동안 변동되는 공모주의 통합/비례 경쟁률 정보를 실시간으로 조회</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img8.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#공모주</span>
+                          <span>#자금관리</span>
+                          <span>#쿠콘</span>
+                          <span>#주식투자</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>상권분석</span>
+                          <span class="green">심사전략</span>
+                          <span class="yellow">기타</span>
+                          <span>민간기관</span>
+                          <span>금융기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>부동산 시세 조회</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>전국 부동산의 현재시세/과거시세/실거래가 정보를 실시간으로 조회</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img8.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#부동산</span>
+                          <span>#시세</span>
+                          <span>#투자</span>
+                          <span>#자산관리</span>
+                          <span>#쿠콘</span>
+                      </div>
+                  </div>
+                  <!-- card -->
+                  <div class="most_left1">
+                      <div class="most_api_div">
+                          <div>API서비스</div>
+                          <img class="scrap" src="../Images/scrap.png" alt="sc" title="sc">
+                      </div>
+                      <div class="most_key_div">
+                          <span>고객분석</span>
+                          <span class="green">신용모형</span>
+                          <span class="purple">마케팅</span>
+                          <span class="yellow">공공데이터</span>
+                          <span>민간기관</span>
+                      </div>
+                      <div class="most_title_div">
+                          <p>부동산 권리변동 내역 조회</p>
+                      </div>
+                      <div class="most_content_div">
+                          <div>
+                              <p>등기부등본에서 확인하기 어려운 권리변동 현황을 자동으로 수집하여 제공</p>
+                          </div>
+                          <div class="dp_list_Img">
+                              <img src="../Images/ap_img8.png" alt="api1" title="api1">
+                          </div>
+                      </div>
+                      <div class="most_ca_div">
+                          <span>#부동산</span>
+                          <span>#담보대출</span>
+                          <span>#대출심사</span>
+                          <span>#등기부등본</span>
+                          <span>#쿠콘</span>
+                      </div>
+                  </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer_wrap footer_noMarginT">
+        <div class="w1200 flex">
+            <!-- left logo -->
+            <div class="footer_logo_wrap">
+                <img src="../Images/shinhan/databada logo.PNG">
+            </div>
+            <!-- right txt -->
+            <div class="footer_txt_wrap">
+                <p> 이용약관 <span>|</span> 개인정보처리방침 </p>
+                <p> 서울특별시 중구 을지로 100 (을지로2가, 파인에비뉴 A동) 신한카드 </p>
+                <p> 이메일: databada@shinhan.com </p>
+                <p> Copyright 2024 Shinhan Card DataBada. All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        var dbBigSwiper = new Swiper(".dbBigSwiper", {
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
+
+
+        // 카테고리 클릭 시 선택 유무 표시
+        // (1) 클릭 시
+        let buttons1 = document.querySelectorAll(".DP_right1 > button");
+        let buttons2 = document.querySelectorAll(".DP_right2 > button");
+        let buttons3 = document.querySelectorAll(".DP_right3 > button");
+        let allButtons = [buttons1, buttons2, buttons3]
+
+
+        // (1) 각 버튼 forEach안에서 한 번에 해결하는 방법
+        //     (point) 직관적
+        // buttons1.forEach(btn1=>{
+        //     btn1.addEventListener("click", ()=>{
+        //         if(btn1.classList.contains("DP_all")){ // 전체를 클릭한거면
+        //             if(document.querySelector(".DP01_all").classList.contains("choice")){
+        //                 buttons1.forEach(all=>{
+        //                     all.classList.remove("choice");
+        //                 });
+        //             }else{
+        //                 buttons1.forEach(all=>{
+        //                     all.classList.add("choice");
+        //                 });
+        //             }
+        //         }
+
+        //         btn1.classList.add("choice");
+        //     });
+        // });
+        buttons1.forEach(btn1 => {
+            btn1.addEventListener("click", () => {
+                const isAll = btn1.classList.contains("DP_all"); // 전체버튼
+
+                if (isAll) { // 클릭 버튼이 '전체'일 경우
+                    const isSelected = btn1.classList.contains("choice"); // 클릭 버튼이 choice갖고 있으면
+
+                    // 전체버튼 클릭 시 > 선택되어 것들은
+                    if (isSelected) {
+                        buttons1.forEach(b => b.classList.remove("choice")); // choice는 없애기
+                    } else {// 선택 안 되어 있었다면 → 전체 선택
+                        buttons1.forEach(b => b.classList.add("choice")); // choice 부여
+                    }
+                } else { // 전체 버튼이 아닌 개별 버튼일 때
+                    btn1.classList.toggle("choice");
+
+                    // 개별 버튼 중 하나라도 해제되면 전체 버튼도 해제
+                    const allSelected = [...buttons1]
+                        .filter(b => !b.classList.contains("DP_all")) // '전체' 버튼 제외
+                        .every(b => b.classList.contains("choice")); // 모두 choice 상태인지 확인
+
+                    if (allSelected) {
+                        document.querySelector(".DP01_all").classList.add("choice");
+                    } else {
+                        document.querySelector(".DP01_all").classList.remove("choice");
+                    }
+                }
+            });
+        });
+        buttons2.forEach(btn1 => {
+            btn1.addEventListener("click", () => {
+                const isAll = btn1.classList.contains("DP_all"); // 전체버튼
+
+                if (isAll) { // 클릭 버튼이 '전체'일 경우
+                    const isSelected = btn1.classList.contains("choice"); // 클릭 버튼이 choice갖고 있으면
+
+                    // 전체버튼 클릭 시 > 선택되어 것들은
+                    if (isSelected) {
+                        buttons2.forEach(b => b.classList.remove("choice")); // choice는 없애기
+                    } else {// 선택 안 되어 있었다면 → 전체 선택
+                        buttons2.forEach(b => b.classList.add("choice")); // choice 부여
+                    }
+                } else { // 전체 버튼이 아닌 개별 버튼일 때
+                    btn1.classList.toggle("choice");
+
+                    // 개별 버튼 중 하나라도 해제되면 전체 버튼도 해제
+                    const allSelected = [...buttons2]
+                        .filter(b => !b.classList.contains("DP_all")) // '전체' 버튼 제외
+                        .every(b => b.classList.contains("choice")); // 모두 choice 상태인지 확인
+
+                    if (allSelected) {
+                        document.querySelector(".DP02_all").classList.add("choice");
+                    } else {
+                        document.querySelector(".DP02_all").classList.remove("choice");
+                    }
+                }
+            });
+        });
+        buttons3.forEach(btn1 => {
+            btn1.addEventListener("click", () => {
+                const isAll = btn1.classList.contains("DP_all"); // 전체버튼
+
+                if (isAll) { // 클릭 버튼이 '전체'일 경우
+                    const isSelected = btn1.classList.contains("choice"); // 클릭 버튼이 choice갖고 있으면
+
+                    // 전체버튼 클릭 시 > 선택되어 것들은
+                    if (isSelected) {
+                        buttons3.forEach(b => b.classList.remove("choice")); // choice는 없애기
+                    } else {// 선택 안 되어 있었다면 → 전체 선택
+                        buttons3.forEach(b => b.classList.add("choice")); // choice 부여
+                    }
+                } else { // 전체 버튼이 아닌 개별 버튼일 때
+                    btn1.classList.toggle("choice");
+
+                    // 개별 버튼 중 하나라도 해제되면 전체 버튼도 해제
+                    const allSelected = [...buttons3]
+                        .filter(b => !b.classList.contains("DP_all")) // '전체' 버튼 제외
+                        .every(b => b.classList.contains("choice")); // 모두 choice 상태인지 확인
+
+                    if (allSelected) {
+                        document.querySelector(".DP03_all").classList.add("choice");
+                    } else {
+                        document.querySelector(".DP03_all").classList.remove("choice");
+                    }
+                }
+            });
+        });
+
+
+
+        // (2) 중복되는 부분 함수로 빼서
+        //     버튼을 배열로 넣어 골라적용하기 하는 방법
+        //     (point) 재활용
+        // buttons1.forEach(button=>{
+        //     button.addEventListener("click", ()=>{
+        //         // 전체 버튼 클릭 시
+        //         if( button.classList.contains("DP_all") ){
+        //             let index = 0;
+        //             allAdd(index);
+        //         }
+        //         // add
+        //         button.classList.add("choice");
+        //     });
+        // });
+
+
+        // function allAdd(i){
+        //     allButtons[i].forEach(allAdd=>{
+        //         allAdd.classList.add("choice");
+        //     });
+        // }
+    </script>
+</body>
+
+</html>

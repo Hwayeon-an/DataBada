@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API상품</title>
+    <!-- swipper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- mine -->
+    <link rel="icon" href="../Images/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dataCustom.css">
+    <link rel="stylesheet" href="../css/choice.css">
+    <script src="../js/script.js" defer></script>
+    <!-- <script src="../js/joinScript.js" defer></script> -->
+</head>
+
+<body>
+    <!-- 팝업 menu -->
+    <div class="modalPop_menu_container">
+      <div class="w1200">
+          <!-- logo, close -->
+          <div class="logoAndClose_wrap">
+              <div class="logo_box">
+                  <a href="../index.html"><img src="../Images/shinhan/databada logo.PNG" alt="Logo"></a>
+              </div>
+              <div class="close_btn_box">
+                  <img src="../Images/closeBtn_black.png" alt="Close">
+              </div>
+          </div>
+          <!-- menu list 1 -->
+          <div class="menuList_POP_wrap">
+              <!--list-->
+              <div class="mList_POPBox">
+                  <h2><span>Data서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="dataProduct.html">Data상품</a></li>
+                      <li><a href="dataCustom.html">맞춤Data</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>솔루션서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="solutionProduct.html">솔루션상품</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>광고서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="targetMarketing.html">타겟마케팅</a></li>
+                      <li><a href="mobileServey.html">모바일서베이</a></li>
+                      <li><a href="solPay.html">SOL페이배너광고</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>API서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="apiProduct.html">API상품</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>커뮤니티</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="news.html">활용장</a></li>
+                  </ul>
+              </div>
+          </div>
+          <!-- menu list 1 -->
+          <div class="menuList_POP_wrap menuList_POP_wrap2">
+              <!--list-->
+              <div class="mList_POPBox">
+                  <h2><span>DataBada</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="dataBada.html">DataBada</a></li>
+                      <li><a href="dataUniverse.html">신한 DataUniverse</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>MY</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="login.html">MY계약</a></li>
+                      <li><a href="login.html">MY타겟마케팅</a></li>
+                      <li><a href="login.html">관심상품</a></li>
+                      <li><a href="login.html">MY문의</a></li>
+                      <li><a href="login.html">알림</a></li>
+                  </ul>
+              </div>
+              <div class="mList_POPBox">
+                  <h2><span>고객센터</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="notification.html">공지사항</a></li>
+                      <li><a href="faq.html">FAQ</a></li>
+                      <li><a href="qna.html">고객문의</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
+  
+  <button class="top_btn"><img src="../Images/top_arrow_gray.png" alt="Top"></button>
+  <!-- https://databada.shinhancard.com/main -->
+  <!-- 헤더 -->
+  <header class="header">
+      <div class="w1200">
+          <!-- 네비게이션 -->
+          <div class="nav">
+              <div class="nav_txt">
+                <button class="nav_btn"><a href="dataBada.html">DataBada</a></button>
+                      <div class="nav_login">
+                          <p><a href="../pages/login.html">로그인</a></p>
+                          <p><a href="../pages/join.html">회원가입</a></p>
+                          <p><a href="../pages/qna.html">고객센터</a></p>
+                      </div>
+              </div>
+          </div> 
+          <!-- menu -->
+          <div class="menu_wrap">
+              <div>
+                  <a href="../index.html">
+                      <img class="logo" src="../Images/shinhan/databada logo.PNG" alt="logo" title="logo">
+                  </a>
+              </div>
+              <div>
+                  <nav class="menu_nav">
+                      <ul>
+                          <li>Data서비스</li>
+                          <li>솔루션서비스</li>
+                          <li>광고서비스</li>
+                          <li>API서비스</li>
+                          <li>커뮤니티</li>
+                      </ul>
+                  </nav>
+              </div>
+              <div class="nav_icon_wrap">
+                <a href="login.html"><img class="myplay_icon" src="../Images/shinhan/mypage icon.PNG" title="mypage" alt="mypage"></a>
+                <img class="hamMenu" src="../Images/shinhan/menu icon.PNG" alt="more" title="more">
+              </div>
+          </div>
+      </div>
+  </header>
+  <div class="gnp_inner_wrap">
+      <div class="sub_gnb_inner">
+          <div class="w1200">
+              <div class="sub_listBox">
+                  <h2><span>Data서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="dataProduct.html">Data상품</a></li>
+                      <li><a href="dataCustom.html">맞춤Data</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>솔루션서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="solutionProduct.html">솔루션상품</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>광고서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="targetMarketing.html">타겟마케팅</a></li>
+                      <li><a href="mobileServey.html">모바일서베이</a></li>
+                      <li><a href="solPay.html">SOL페이배너광고</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>API서비스</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="apiProduct.html">API상품</a></li>
+                  </ul>
+              </div>
+              <div class="sub_listBox">
+                  <h2><span>커뮤니티</span></h2>
+                  <ul class="sub_list_ul">
+                      <li><a href="news.html">활용장</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+    <!-- contents -->
+    <div class="db_container">
+        <div class="w1200">
+            <h1 class="db_title">API상품</h1>
+
+            <!-- tab 버튼 -->
+            <div class="HUA_tab_container">
+                <button class="api_guid_btn choice">API 공통 가이드</button>
+                <button class="api_ex_btn">API 명세서 (예시)</button>
+            </div>
+
+            <!-- 안에 내용 -->
+            <div class="HUA_position_re">
+                <div class="HUA_All_Container">
+                    <!-- 01~ 리스트 container -->
+                    <div class="db_list_container HUA_api_gouidContents">
+                        <!-- list -->
+                        <div class="db_list">
+                            <!-- txt -->
+                            <article class="db_con_title">
+                                <p>01</p>
+                                <p>|</p>
+                                <p>공통 가이드</p>
+                            </article>
+                            <p class="dc_content">
+                                DataBada는 고객사가 API 방식으로 제공된 데이터를 활용하여 다양한 업무를 개발하실 수 있도록 지원합니다. <br>
+                                API 서비스는 아래의 절차로 진행됩니다.
+                            </p>
+                        </div>
+                        <div class="db_list db_list_top">
+                            <!-- txt -->
+                            <article class="db_con_title">
+                                <p>02</p>
+                                <p>|</p>
+                                <p>서비스 프로세스</p>
+                            </article>
+                            <!-- con -->
+                            <div class="HUA_sec_conWrap">
+                                <!--프로세스-->
+                                <div class="HUA_pro_wrap">
+                                    <div class="txt_box">
+                                        <p>계약 체결</p>
+                                    </div>
+                                    <div>
+                                        <img src="../Images/sub2_db_img6.png" alt="next">
+                                    </div>
+                                    <div class="txt_box box_pink">
+                                        <p>APP Key발급</p>
+                                    </div>
+                                    <div>
+                                        <img src="../Images/sub2_db_img6.png" alt="next">
+                                    </div>
+                                    <div class="txt_box box_purple">
+                                        <p>API 명세서 제공</p>
+                                    </div>
+                                    <div>
+                                        <img src="../Images/sub2_db_img6.png" alt="next">
+                                    </div>
+                                    <div class="txt_box box_blue">
+                                        <p>테스트 진행 (테스트/운영)</p>
+                                    </div>
+                                </div>
+
+                                <!-- Step 1 ~ 4 -->
+                                <div class="HUA_step_wrap">
+                                    <!---->
+                                    <div class="HUA_step HUA_step1">
+                                        <div class="HUA_step_txt">
+                                            <p>Step 1</p>
+                                            <h1>계약 체결</h1>
+                                        </div>
+                                        <ul class="HUA_step_ul">
+                                            <li>API 서비스 이용을 위해서는 계약 체결이 필수입니다. API 서비스 이용을 원하실 경우 문의를 남겨주시면 담당자가 빠르게 안내를
+                                                드리도록 하겠습니다.</li>
+                                            <li>계약의 내용은 상품에 따라 상이하며, 이 때 인증키(APP Key) 발급과 관련한 추가 정보 및 신청 정보를 고객사에게 요청 드릴 수
+                                                있습니다.</li>
+                                        </ul>
+                                    </div>
+                                    <!---->
+                                    <div class="HUA_step HUA_step1">
+                                        <div class="HUA_step_txt">
+                                            <p>Step 2</p>
+                                            <h1>인증키(APP Key) 발급 및 IP White list 관리</h1>
+                                        </div>
+                                        <ul class="HUA_step_ul">
+                                            <li>인증키 또는 APP Key란 API 이용자가 API 서비스의 이용 허가를 받은 주체임을 식별하 수 있도록 DataBada에서 이용자에게
+                                                개별적으로 부여하는 고유한 값을 말합니다.</li>
+                                            <li>
+                                                체결된 계약에 근거하여 DataBada에서 인증키를 발행하며, 이메일 또는 DataBada 홈페이지를 통해서도 확인하실 수 있습니다.
+                                                <div class="ul_txt">※ 개발(테스트)용, 운영용 별도 제공</div>
+                                            </li>
+                                            <li>API접근을 위해 고객사에서 사용하시는 서버 IP 최대 3개를 DataBada 담당자에게 전달해 주시면 White List에 등록해
+                                                드립니다.</li>
+                                        </ul>
+                                    </div>
+                                    <!---->
+                                    <div class="HUA_step HUA_step1">
+                                        <div class="HUA_step_txt">
+                                            <p>Step 3</p>
+                                            <h1>API 명세서 제공</h1>
+                                        </div>
+                                        <ul class="HUA_step_ul">
+                                            <li>API 운영을 위한 요청방식, 요청메시지, 응답메시지에 대한 상세 명세서를 제공합니다. 이 때 인증키를 포함하여 제공할 수 있으며 기관
+                                                인증 및 거래 무결성 검증 등의 중요 용도로 사용되는 중요 정보로 절대 외부에 노출되면 안됩니다.</li>
+                                        </ul>
+                                    </div>
+                                    <!---->
+                                    <div class="HUA_step HUA_step1">
+                                        <div class="HUA_step_txt">
+                                            <p>Step 4</p>
+                                            <h1>테스트 진행</h1>
+                                        </div>
+                                        <ul class="HUA_step_ul">
+                                            <li>개발(테스트) 서버에서 연동 서비스 개발 후 서비스 점검이 완료되어야 운영(온라인) 서버 호출이 가능합니다.</li>
+                                            <li>테스트 및 운영 오픈 일정은 DataBada 담당자와 협의를 통해 지정이 가능합니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- 부가 설명 -->
+                                <div class="HUA_plus_contents">
+                                    <p>※</p>
+                                    <p>
+                                        본 문서의 인증 가이드가 절대적인 기준은 아니며, 이용하려는 개별 서비스나 관련 감독기관의 규정 변경에 따라 그 내용이 달라질 수 있습니다.
+                                        관련 규정 및 이용 서비스에 따라 변경 발생 시, 연동 개발 전 세부 항목에 대한 별도 협의가 진행될 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- END db_list -->
+                    </div><!-- END API공통가이드 내용들 -->
+
+                    <!-- START API 명세서 예시 내용 -->
+                    <div class="db_list_container HUA_api_exContents">
+                        <!-- list -->
+                        <div class="db_list">
+                            <!-- txt -->
+                            <article class="db_con_title">
+                                <p>01</p>
+                                <p>|</p>
+                                <p>명세서(예시)</p>
+                            </article>
+                            <p class="dc_content"><span>DataBada 이용 고객</span>에게 제공하는 API 명세서 예시이며, 상품에 따라 상세 내용은 변동될 수 있습니다.</p>
+                            <!-- Contents 1 -->
+                            <div class="HUA_sec_comWrap">
+                                <h1>API 개요</h1>
+                                <!-- 설명 box -->
+                                <table class="HUA_table1 HUA_table">
+                                    <colgroup>
+                                        <col style="width:20%;">
+                                        <col style="width:20%;">
+                                        <col style="width:60%;">
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th rowspan="7" scope="col">API 정보</th>
+                                            <th scope="col">API ID</th>
+                                            <td class="text_left">SHC_000000001</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">API 명(국문)</th>
+                                            <td class="text_left">DataBada_표준데이터상품제공</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">API 설명</th>
+                                            <td class="text_left"> DataBada의 표준데이터 상품 데이터를 요청 고객사에게 제공한다. </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">메서드</th>
+                                            <td class="text_left">POST</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Content Type</th>
+                                            <td class="text_left">application/json; charset=UTF-8</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">개발환경 URL</th>
+                                            <td class="text_left"> https://tst-api.databada.shinhancard.com:8443/v1/std/client-a/monthlystd-1 </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">운영환경 URL</th>
+                                            <td class="text_left">개발환경 테스트 완료 후 별도 전달</td>
+                                        </tr>
+                                        <tr>
+                                            <th rowspan="3" scope="col">API보안</th>
+                                            <th scope="col">API 인증/권한</th>
+                                            <td class="text_left">[0] 서비스 key/토큰(API 키) [] 인증서(GPKI) [] Basic(ID/PW) [] 없음 </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">메시지 레벨 암호화</th>
+                                            <td class="text_left">[] 전자서명 [] 암호화 [] JWT/JOSE [0] 없음</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">전송 레벨 암호화</th>
+                                            <td class="text_left">[0] SSL [] 없음</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2" scope="col">···</th>
+                                            <td class="text_left"></td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2" scope="col">사용 제약 사항(비고)</th>
+                                            <td class="text_left"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- Contents 2 -->
+                            <div class="HUA_sec_comWrap">
+                                <h1>요청 전문 샘플(Request Parameters)</h1>
+                                <!-- 설명 box -->
+                                <table class="HUA_table2 HUA_table">
+                                    <colgroup>
+                                        <col style="width:16.66%;">
+                                        <col style="width:16.66%;">
+                                        <col style="width:16.66%;">
+                                        <col style="width:16.66%;">
+                                        <col style="width:16.66%;">
+                                        <col style="width:16.66%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th scope="row">HTTP</th>
+                                            <th scope="row">Name</th>
+                                            <th scope="row">TYPE</th>
+                                            <th scope="row">Required</th>
+                                            <th scope="row">Length</th>
+                                            <th scope="row">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3">Header</td>
+                                            <td>x-shc-app-key</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td></td>
+                                            <td class="text_left">APP key</td>
+                                        </tr>
+                                        <tr>
+                                            <td>x-shc-app-secret</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td></td>
+                                            <td class="text_left">APP secret</td>
+                                        </tr>
+                                        <tr>
+                                            <td>x-shc-tran-id</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td>26</td>
+                                            <td class="text_left">
+                                                트랜잭션 아이디 <br>
+                                                + 업체id(10자리) <br>
+                                                YYYYMMDD24HHmmssff 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="6">Body</td>
+                                            <td>dataHeader</td>
+                                            <td>Object</td>
+                                            <td>N</td>
+                                            <td></td>
+                                            <td class="text_left">요청시 불필요</td>
+                                        </tr>
+                                        <tr>
+                                            <td>dataBody</td>
+                                            <td>Object</td>
+                                            <td>Y</td>
+                                            <td></td>
+                                            <td class="text_left"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>afoCVI</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td>16</td>
+                                            <td class="text_left">예&#41; 제휴사구분값</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bneCcd</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td>3</td>
+                                            <td class="text_left">예&#41; 업무구분코드</td>
+                                        </tr>
+                                        <tr>
+                                            <td>brn</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td>10</td>
+                                            <td class="text_left">예&#41; 사업자등록번호</td>
+                                        </tr>
+                                        <tr>
+                                            <td>cusGeF</td>
+                                            <td>String</td>
+                                            <td>Y</td>
+                                            <td>1</td>
+                                            <td class="text_left">예&#41; 고객동의여부</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- Contents 3 -->
+                            <div class="HUA_sec_comWrap">
+                                <h1>요청 전문 예제(Request Example)</h1>
+                                <!-- 설명 box -->
+                                <div class="HUA_ex_code">
+                                    <pre>
+{
+    "dataHeader": {
+    },
+    "dataBody": {
+        "afoCVI": "ABCDEFZ5A670CS62D",
+        "bneCcd": "001",
+        "brn": "111111111",
+        "cusGeF": "Y"
+    }
+}</pre>
+                                </div>
+                            </div>
+                            <!-- Contents 4 -->
+                            <div class="HUA_sec_comWrap">
+                                <h1>요청 전문 샘플(Request Parameters)</h1>
+                                <!-- 설명 box -->
+                                <table class="HUA_table2 HUA_table">
+                                    <colgroup>
+                                        <col style="width:16.25%;">
+                                        <col style="width:16.25%;">
+                                        <col style="width:16.25%;">
+                                        <col style="width:16.25%;">
+                                        <col style="width:35%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th scope="row">HTTP</th>
+                                            <th scope="row">Name</th>
+                                            <th scope="row">TYPE</th>
+                                            <th scope="row">Length</th>
+                                            <th scope="row">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="3">Header</td>
+                                            <td>x-shc-app-key</td>
+                                            <td>String</td>
+                                            <td></td>
+                                            <td class="text_left">요청 시 전달받은 APP key</td>
+                                        </tr>
+                                        <tr>
+                                            <td>x-shc-app-secret</td>
+                                            <td>String</td>
+                                            <td></td>
+                                            <td class="text_left">요청 시 전달받은 APP secret</td>
+                                        </tr>
+                                        <tr>
+                                            <td>x-shc-tran-id</td>
+                                            <td>String</td>
+                                            <td>26</td>
+                                            <td class="text_left">요청 시 전달받은 트랜잭션 아이디</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="10">Body</td>
+                                            <td>dataHeader</td>
+                                            <td>Object</td>
+                                            <td></td>
+                                            <td class="text_left">dataHeader</td>
+                                        </tr>
+                                        <tr>
+                                            <td>resultCode</td>
+                                            <td>String</td>
+                                            <td></td>
+                                            <td class="text_left">resultCode</td>
+                                        </tr>
+                                        <tr>
+                                            <td>resultMessage</td>
+                                            <td>String</td>
+                                            <td></td>
+                                            <td class="text_left">resultMessage</td>
+                                        </tr>
+                                        <tr>
+                                            <td>successCode</td>
+                                            <td>String</td>
+                                            <td>1</td>
+                                            <td class="text_left">에러유무코드(0:성공, 1:오류)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>dataBody</td>
+                                            <td>Object</td>
+                                            <td></td>
+                                            <td class="text_left">dataBody</td>
+                                        </tr>
+                                        <tr>
+                                            <td>brn</td>
+                                            <td>String</td>
+                                            <td>10</td>
+                                            <td class="text_left">예&#41; 사업자등록번호</td>
+                                        </tr>
+                                        <tr>
+                                            <td>data1</td>
+                                            <td>Int</td>
+                                            <td>10</td>
+                                            <td class="text_left">예&#41; Value1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>data2</td>
+                                            <td>Array</td>
+                                            <td></td>
+                                            <td class="text_left"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>data3</td>
+                                            <td>String</td>
+                                            <td>9</td>
+                                            <td class="text_left">예&#41; Value3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>data4</td>
+                                            <td>String</td>
+                                            <td>9</td>
+                                            <td class="text_left">예&#41; Value4    </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- Contents 5 -->
+                            <div class="HUA_sec_comWrap">
+                                <h1>응답 전문 예제(Response Example)</h1>
+                                <!-- 설명 box -->
+                                <div class="HUA_ex_code">
+                                    <pre>
+{
+    "dataHeader": {
+        "successCode": "0",
+        "resultCode": "0000",
+        "resultMessage": "성공",
+    },
+    "dataBody": {
+        "brn": "111111111",
+        "data1": 2,
+        "data2": [
+            {
+                "data3": "Value3",
+                "data4": "Value4"
+            },
+            {
+                "data3": "Value3",
+                "data4": "Value4"
+            }
+        ]
+    }
+}</pre>
+                                </div>
+                            </div>
+                            <!-- Contents 6 -->
+                            <div class="HUA_sec_comWrap">
+                                <h1>응답전문(Response)</h1>
+                                <!-- 설명 box -->
+                                <table class="HUA_table2 HUA_table">
+                                    <colgroup>
+                                        <col style="width:22%;">
+                                        <col style="width:22%;">
+                                        <col style="width:56%;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th scope="row">
+                                                응답코드<br>
+                                                (successCode)
+                                            </th>
+                                            <th scope="row">
+                                                세부 응답코드<br>
+                                                (resultCode)
+                                            </th>
+                                            <th scope="row">
+                                                응답 메시지<br>
+                                                (resultMessage)
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td class="text_left">성공</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="8">1</td>
+                                            <td>21</td>
+                                            <td class="text_left">시스템 오류가 발생하였습니다. IT담당자에게 문의하시기 바랍니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>22</td>
+                                            <td class="text_left">제휴사구분값을 확인하십시오.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>23</td>
+                                            <td class="text_left">업무구분코드를 확인하십시오.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>24</td>
+                                            <td class="text_left">사업자등록번호를 확인하십시오.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>25</td>
+                                            <td class="text_left">실시간거래로그 등록 중 오류가 발생하였습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>26</td>
+                                            <td class="text_left">조회 중 오류가 발생하였습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>27</td>
+                                            <td class="text_left">고객정보가 존재하지 않습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4001</td>
+                                            <td class="text_left">요청 파라미터 문제</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!-- END db_list -->
+                    </div><!-- END API 명세서 예시 내용들 -->
+                </div>
+            </div> <!--END Contents 2개 담고 있음 -->
+            <!-- 문의하기 -->
+            <div class="dc_go_btn">
+                <button type="button"><a href="apiProduct.html">목록</a></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer_wrap footer_marginT0">
+        <div class="w1200 flex">
+            <!-- left logo -->
+            <div class="footer_logo_wrap">
+                <img src="../Images/shinhan/databada logo.PNG">
+            </div>
+            <!-- right txt -->
+            <div class="footer_txt_wrap">
+                <p> 이용약관 <span>|</span> 개인정보처리방침 </p>
+                <p> 서울특별시 중구 을지로 100 (을지로2가, 파인에비뉴 A동) 신한카드 </p>
+                <p> 이메일: databada@shinhan.com </p>
+                <p> Copyright 2024 Shinhan Card DataBada. All Rights Reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script>
+        var dbBigSwiper = new Swiper(".dbBigSwiper", {
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+
+
+        // tab1, tab2
+        let tab1 = document.querySelector(".api_guid_btn"); // 공통 가이드
+        let tab2 = document.querySelector(".api_ex_btn"); // 명세서 (예시)
+        let apiConHeight = document.querySelector(".HUA_position_re");
+        let apiContentBox = document.querySelector(".HUA_All_Container"); // contents1, contents2 감싼 div
+        let contents = document.querySelectorAll(".HUA_All_Container > div");
+
+        tab1.addEventListener("click", ()=>{
+            apiContentBox.style.left = "0%";
+            tab2.classList.remove("choice");
+            tab1.classList.add("choice");
+
+            contentsH(0);
+        });
+        tab2.addEventListener("click", ()=>{
+            apiContentBox.style.left = "-100%";
+            tab1.classList.remove("choice");
+            tab2.classList.add("choice");
+
+            contentsH(1);
+        });
+
+        function contentsH(index){
+            const height = contents[index].offsetHeight;
+            apiConHeight.style.height = `${height}px`;
+        }
+
+        contentsH(0);
+    </script>
+</body>
+
+</html>

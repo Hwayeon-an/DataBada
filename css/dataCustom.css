@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+.dc_con_title {
+  font-size:22px;
+  margin-bottom:16px;
+  font-weight: bold;
+  text-align: left;
+}
+.db_con_title > p:first-child {
+  font-weight: bold;
+}
+.dc_content {
+  margin-top:16px;
+  text-align:left;
+}
+.db_sec_comWrap {
+  margin-top:48px;
+}
+.db_sec_comWrap > h3 {
+  font-weight: bold;
+  font-size:18px;
+  text-align:left;
+  padding-bottom:16px;
+}
+.dbSec_conBox_wrap {
+  width:100%;
+}
+.db_box1, .db_box2 {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  gap:24px;
+}
+.db_box1 > div {
+  width:33.33%;
+  border:1px solid #e5e5e5;
+  padding:32px;
+  border-radius: 20px;
+}
+.db_box1 > div > img,
+.db_box2 > div > img {
+  width:56px;
+}
+.db_box1 > div > h1,
+.db_box2 > div > h1 {
+  padding:32px 0 16px;
+  font-size:22px;
+  color:#011b6a;
+  font-weight: bold;
+}
+.db_box1 > div > p,
+.db_box2 > div > p {
+  font-size:18px;
+  line-height: 1.5;
+}
+.dbSec1_opacity {
+  opacity: 0;
+}
+.db_box2 {
+  margin-top:24px;
+}
+.db_box2 > div {
+  width:50%;
+  border:1px solid #e5e5e5;
+  padding:32px;
+  border-radius: 20px;
+}
+
+
+
+
+/*서비스프로세스*/
+.dbSec2_conWrap {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dbSec2_BBox {
+  background-color: rgb(242, 243, 246);
+  border-radius: 20px;
+  width:264px;
+  padding:16px;
+}
+.BBox_pink {
+  background-color:rgb(255, 241, 248);
+}
+.BBox_purple {
+  background-color:rgb(244, 239, 255);
+}
+.BBox_blue {
+  background-color:rgb(235, 241, 255);
+}
+.dbSec2_BBox > h3 {
+  font-size:18px;
+  padding-bottom:16px;
+  color:#344988;
+  font-weight: bold;
+}
+.BBox_pink > h3 {
+  color:#ff66af;
+}
+.BBox_purple > h3{
+  color:#8c6ad4;
+}
+.BBox_blue > h3 {
+  color:#356cff;
+}
+.dbSec2_BBox > ul {
+  width:100%;
+  border-radius: 16px;
+  background-color: white;
+  min-height:120px;
+  display:flex;
+  text-align:left;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.dbSec2_BBox > ul > li {
+  padding:0 0 8px 20px;
+  position:relative;
+}
+.dbSec2_BBox > ul > li::before {
+  content:"";
+  position: absolute;
+  left:10px;
+  top:10px;
+  /* transform:translateY(-50%); */
+  width:3px;
+  height:3px;
+  background-color:#666;
+  border-radius: 50%;
+}
+.dbSec2_SBox {
+  width:32px;
+  height:inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dbSec2_SBox > img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+
+
+/* 제휴형 Data 서비스 개발 */
+.dc_develop_sec {
+  margin-top:64px;
+}
+.db_develop_box {
+  margin-top:0;
+  width:100%;
+}
+.db_develop_conWrap {
+  flex-wrap:wrap;
+}
+.db_develop_conWrap > div > div > h1 {
+  font-size:18px;
+  letter-spacing: -0.1px;
+}
+
+
+
+
+
+
+/* 02 */
+.dc_list02_container {
+  margin-top:80px;
+}
+.dc_list02_header p:first-child{
+  font-weight: bold;
+}
+.CRS_conWrap {
+  width:100%;
+  margin-top:64px;
+
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap:wrap;
+  gap:64px;
+}
+.CRS_Box {
+  width:46.33%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.CRS_Box h2 {
+  font-size:22px;
+  margin-bottom:16px;
+  font-weight: bold;
+}
+.CRS_Box p {
+  line-height: 1.5;
+  min-height:48px;
+}
+.CRS_Box img {
+  display:block;
+  margin-top:16px;
+  width:100%;
+  border-radius: 20px;
+}
+.dc_go_btn {
+  width:100%;
+  height:auto;
+}
+.dc_go_btn > button {
+  min-width:224px;
+  padding:16px;
+  border-radius: 16px;
+  font-size:18px;
+  color:white;
+  font-weight: bold;
+  background-color: #356cff;
+  margin-top:64px;
+}
+.dc_container {
+  padding-bottom:0;
+}

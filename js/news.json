@@ -1,0 +1,212 @@
+[
+  {
+    "id":"1",
+    "src":"../Images/news_img1.jpg",
+    "ca":"Trend Report",
+    "title":"액티브 시니어의 소비생활 엿보기",
+    "date":"2025-04-10"
+  },
+  {
+    "id":"2",
+    "src":"../Images/news_img2.png",
+    "ca":"Data News",
+    "title":"'국내외 데이터 사업 확장' 신한카드, 그랜데이터 협업 확대",
+    "date":"2025-04-08"
+  },
+  {
+    "id":"3",
+    "src":"../Images/news_img3.png",
+    "ca":"Data News",
+    "title":"서울 축제 -상권 빅데이터 분석해드려요.",
+    "date":"2025-03-05"
+  },
+  {
+    "id":"4",
+    "src":"../Images/news_img4.png",
+    "ca":"Data News",
+    "title":"[매일경제] 韓경제 큰손된 외국인 ···카드 사용액 5년새 65% '껑충'",
+    "date":"2025-02-07"
+  },
+  {
+    "id":"5",
+    "src":"../Images/news_img5.jpg",
+    "ca":"Trend Report",
+    "title":"신한카드가 선정한 2025년 트렌드 키워드 'REVIVE'",
+    "date":"2025-01-17"
+  },
+  {
+    "id":"6",
+    "src":"../Images/news_img6.jpg",
+    "ca":"Study Case",
+    "title":"퀵 커머스로 진화한 배달앱 소비트렌드",
+    "date":"2024-12-27"
+  },
+  {
+    "id":"7",
+    "src":"../Images/news_img7.jpg",
+    "ca":"Study Case",
+    "title":"카드 데이터로 분석해본 카페 업종 트렌드 리포트",
+    "date":"2024-12-23"
+  },
+  {
+    "id":"8",
+    "src":"../Images/news_img1.jpg",
+    "ca":"Study Case",
+    "title":"빵과 야구를 사랑하는, 대전 여행 테마소비 분석",
+    "date":"2024-12-09"
+  },
+  {
+    "id":"9",
+    "src":"../Images/news_img9.jpg",
+    "ca":"Study Case",
+    "title":"마이데이터를 활용한 금융 자산 밸런스 비교",
+    "date":"2024-12-02"
+  },
+  {
+    "id":"10",
+    "src":"../Images/news_img10.jpg",
+    "ca":"Study Case",
+    "title":"신한카드 데이터로 살펴본 개인사업자 창업트렌드",
+    "date":"2024-11-25"
+  },
+  {
+    "id":"11",
+    "src":"../Images/news_img11.png",
+    "ca":"Data News",
+    "title":"[파이낸셜뉴스] 결혼 전엔 성수, 결혼 후엔 명동으로 간다",
+    "date":"2024-11-20"
+  },
+  {
+    "id":"12",
+    "src":"../Images/news_img12.jpg",
+    "ca":"Study Case",
+    "title":"마이비즈맵을 활용한 명동 VS 성수 상권 비교",
+    "date":"2024-11-18"
+  },
+  {
+    "id":"13",
+    "src":"../Images/news_img13.jpg",
+    "ca":"Study Case",
+    "title":"데이터 놀이터 데이터 안심구역을 소개합니다!",
+    "date":"2024-11-11"
+  },
+  {
+    "id":"14",
+    "src":"../Images/news_img14.png",
+    "ca":"Data News",
+    "title":"[헤럴드 경제] 신한카드, 월드뱅크 컨퍼런스에서 데이터 기반 탄소중립 경영 사례 발표",
+    "date":"2024-11-06"
+  },
+  {
+    "id":"15",
+    "src":"../Images/news_img15.jpg",
+    "ca":"Study Case",
+    "title":"신한SOL페이) 앱테크 서비스 리포트_고객 이용 현황과 패턴 분석",
+    "date":"2024-11-04"
+  },
+  {
+    "id":"16",
+    "src":"../Images/news_img16.png",
+    "ca":"Data News",
+    "title":"[서울신문] '흑백요리사' 손님 2.4배 뛰었지만, 주변 골목상권 낙수효과는 없었다",
+    "date":"2024-11-01"
+  },
+  {
+    "id":"17",
+    "src":"../Images/news_img17.png",
+    "ca":"Data News",
+    "title":"[이투데이] 신한ㆍKBㆍNH카드, KCB와 손잡고 新신용평가 모형 구축",
+    "date":"2024-10-30"
+  },
+  {
+    "id":"18",
+    "src":"../Images/news_img18.jpg",
+    "ca":"Trend Report",
+    "title":"2024년 국내 여행 트렌드 ② 쉬는 제주, 노는 부산, 먹는 강릉",
+    "date":"2024-10-29"
+  },
+  {
+    "id":"19",
+    "src":"../Images/news_img19.jpg",
+    "ca":"광고",
+    "title":"AI for GranData 2024 세미나 안내",
+    "date":"2024-10-23"
+  },
+  {
+    "id":"20",
+    "src":"../Images/news_img20.png",
+    "ca":"Data News",
+    "title":"[이데일리] '내 꿈도 흑백요리사' ...MZ사장님 절반은 요식업 창업",
+    "date":"2024-10-22"
+  },
+  {
+    "id":"21",
+    "src":"../Images/news_img21.jpg",
+    "ca":"Study Case",
+    "title":"MZ 사장님 현황 보고서",
+    "date":"2024-10-18"
+  },
+  {
+    "id":"22",
+    "src":"../Images/news_img22.jpg",
+    "ca":"Trend Report",
+    "title":"2024년 국내 여행 트렌드 ① 제주, 부산, 강릉 당신의 선택은?",
+    "date":"2024-10-14"
+  },
+  {
+    "id":"23",
+    "src":"../Images/news_img23.png",
+    "ca":"Data News",
+    "title":"[한국경제] 국내 최초 민간 민간데이터댐 '그랜데이터' 구축",
+    "date":"2024-10-11"
+  },
+  {
+    "id":"24",
+    "src":"../Images/news_img24.jpg",
+    "ca":"Study Case",
+    "title":"신한 그린인덱스(Green Index)로 탄소배출량 확인해보세요!",
+    "date":"2024-10-04"
+  },
+  {
+    "id":"25",
+    "src":"../Images/news_img25.png",
+    "ca":"Data News",
+    "title":"[파이낸셜 뉴스] 2030세대부터 4060세대까지 모두 이용하는 마이데이터... 통합조회 이상으로 발전 必",
+    "date":"2024-09-26"
+  },
+  {
+    "id":"26",
+    "src":"../Images/news_img26.jpg",
+    "ca":"Study Case",
+    "title":"금융마이데이터 호기심 많은 고객은 누구?",
+    "date":"2024-09-12"
+  },
+  {
+    "id":"27",
+    "src":"../Images/news_img27.png",
+    "ca":"Data News",
+    "title":"신한카드, 국내 소비 활성화 위해 서울 실시간 상권 정보 제공한다",
+    "date":"2024-09-12"
+  },
+  {
+    "id":"28",
+    "src":"../Images/news_img28.jpg",
+    "ca":"Trend Report",
+    "title":"외식 데이터로 살펴본 '세대별 서울 최애 지역은?'",
+    "date":"2024-08-27"
+  },
+  {
+    "id":"29",
+    "src":"../Images/news_img29.png",
+    "ca":"Study Case",
+    "title":"가명결합 빅데이터를 활용한 '공연 관람 행태 분석'",
+    "date":"2024-08-20"
+  },
+  {
+    "id":"30",
+    "src":"../Images/news_img30.jpg",
+    "ca":"Trend Report",
+    "title":"(요즘사람, 요즘소비) ⑤ 새로운 식사 문화",
+    "date":"2024-08-06"
+  }
+]

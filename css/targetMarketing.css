@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/*
+  targetMarketing.html
+  mobileServey.html
+  solPay.html
+*/
+
+
+.db_con_title > div {
+  display:flex;
+  font-size:24px;
+  align-items: center;
+  justify-content: flex-start;
+  gap:12px;
+  margin-bottom:16px;
+}
+.db_con_title > div > p:nth-child(1) {
+  color:#356cff;
+  font-weight: bold;
+}
+.db_con_title > div > p:nth-child(2) {
+  color:#ccc;
+  font-size:20px;
+}
+.db_con_title > div > p:nth-child(3) {
+  font-weight: bold;
+}
+.TM_list_container .db_con_title {
+  display:flex;
+  justify-content: space-between;
+}
+.tm_header_searhBtn > button {
+  font-size:18px;
+  padding:0 16px;
+  border-radius: 900px;
+  line-height: 56px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+}
+.tm_header_searhBtn > button img {
+  width:20px;
+}
+.tm_header_searhBtn > button:first-child {
+  color:#356CFF;
+  border:solid 1px #356CFF;
+  font-weight: bold;
+  background-color:transparent;
+}
+.tm_header_searhBtn > button:last-child {
+  background-color: #011B6A;
+  color:white;
+  font-weight: bold;
+}
+.TM_list_container .dc_content {
+  margin-top:0;
+}
+.TM_list_container .db_con_title > div {
+  margin-bottom:0;
+}
+
+
+/* contents */
+.TM_contents_wrap {
+  width:100%;
+  margin-top:40px;
+  /* display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap; */
+  
+  /* 1줄 2줄 이런 contents때문에 전체적으로 감싸는 부모요소엔 grid가 좋음! */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 그리드 똑같은 비율로   or    grid-template-columns:1fr 1fr; */
+  gap: 40px; /* 원하는 간격 */
+}
+.TM_contents_wrap > .tm_box {
+  width:100%;
+  border-radius: 20px;
+  border:solid 1px #ccc;
+  background-color: white;
+  padding:16px;
+}
+.TM_contents_wrap .tmBox_title {
+  width:100%;
+  display:block;
+  line-height:1.5;
+  font-size:18px;
+  text-align:center;
+  font-weight: bold;
+  color:#011b6a;
+  background-color:#f2f3f6;
+  padding:12px;
+}
+.tm_box > div {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap;
+  min-height:160px;
+}
+.tm_box > div > div { /*img*/
+  width:96px;
+  height:96px;
+}
+.tm_box > div > div > img{
+  width:100%;
+}
+.tm_box > div > ul { /* 오른쪽 설명 */
+  width:75%;
+  text-align:left;
+  margin-top:16px;
+}
+.tm_box > div > ul > li {
+  position: relative;
+  padding: 0 0 8px 20px;
+}
+.tm_box > div > ul > li:not(.not_before)::before {
+  content:"";
+  position: absolute;
+  left:0;
+  top:10px;
+  width:3px;
+  height:3px;
+  background-color:#666;
+  border-radius: 50%;
+}
+.tm_box > div > ul > li > ul {
+  margin-top:8px;
+  color:#666;
+}
+.tm_box > div > ul > li > ul > li:not(:last-child) {
+  padding: 0 0 8px 13px;
+  position: relative;
+}
+.tm_box > div > ul > li > ul > li::before {
+  content:"";
+  position: absolute;
+  left:0;
+  top:10px;
+  width:5px;
+  height:1px;
+  background-color:#666;
+  border-radius: 50%;
+}
+.tm_box_grayP {
+  width:100%;
+  text-align:left;
+  color:#666;
+  position: relative;
+  left:-6%;
+  top:10%;
+}
+
+
+
+.TM_db_list2 {
+  margin-top:80px;
+}
+.TM_db_list2 .db_con_title p:first-child {
+  font-weight: bold;
+}
+.TM_Img_wrap {
+  width:100%;
+  height:700px;
+  background:url("../Images/tm_img5.png") center/cover;
+  margin-top:40px;
+}
+.TM_bottom_btn_wrap {
+  margin-top:100px;
+  padding-bottom:70px;
+  border-bottom:solid 1px #ddd;
+}
+.TM_bottom_btn_wrap > .tm_header_searhBtn {
+  display:flex;
+  gap:16px;
+  justify-content: center;
+}
+
+
+.footer_noMarginT {
+  margin-top:0;
+}
+
+
+
+
+
+/* mobileServey.html */
+.MS_sec1_img_wrap {
+  width:100%;
+  height:660px;
+  background:url("../Images/ms_img1.png") center/cover;
+  margin-top:40px;
+}
+.MS_con_wrap1 {
+  margin-top:16px;
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  gap:24px;
+}
+.MS_box02 {
+  width:32%;
+  padding:32px;
+  border:1px solid #e5e5e5;
+  border-radius: 20px;
+
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.MS_box02 > div {
+  width:56px;
+  height:56px;
+}
+.MS_box02 > div > img {
+  width:100%;
+}
+.MS_box02 > h1 {
+  width:100%;
+  font-size:22px;
+  font-weight: bold;
+  padding:32px 0 16px;
+  color:#011B6A;
+}
+.MS_box02 > p {
+  width:100%;
+  font-size:18px;
+  line-height: 1.7;
+}
+
+
+
+
+
+/* solPay.html */
+.SP_listBox {
+  margin-top:80px;
+}
+.SP_con_title {
+  margin-top:64px;
+}
+.SP_box03 {
+  width:49%;
+}
+.SP_box03 h1 {
+  font-size:22px;
+  padding-bottom:16px;
+  font-weight: bold;
+  color:#333;
+}
+.sp03_img1 {
+  width:100%;
+  height:368px;
+  background: url("../Images/sp_img1.png") center/cover;
+  background-repeat:no-repeat;
+  background-color: #f2f3f6;
+  border-radius: 20px;
+}
+.sp03_img2 {
+  width:100%;
+  height:368px;
+  background: url("../Images/sp_img2.png") center/cover;
+  background-repeat:no-repeat;
+  background-color: #f2f3f6;
+  border-radius: 20px;
+}
+.sp_box_con {
+  padding:16px 0 8px 20px;
+  text-align:left; 
+}
+.sp_box_con > p {
+  position: relative;
+  line-height: 1.7;
+  word-break: keep-all;
+}
+.sp_box_con > p::before {
+  content:"";
+  position: absolute;
+  top:12px;
+  left:-12px;
+  width:3px;
+  height:3px;
+  background-color: #333;
+  border-radius: 50%;
+}
+.SP_go_btn > button{
+  color:#98a2bc;
+  background-color: #dee6f1;
+}
